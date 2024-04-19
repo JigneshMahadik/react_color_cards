@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.color-wrapper{
+  display: flex;
+  /* background-color: rgb(214, 238, 238); */
+  width: 100%;
+  /* padding: 2rem; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#color-card{
+  height: 15rem;
+  width: 10rem;
+  background-color: rgb(241, 241, 240);
+  margin: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+}
+/* #top-sec{
+  height: 75%;
+  background-color: tomato;
+} */
